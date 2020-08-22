@@ -46,13 +46,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
  - provide a readme for each lib
  - Use TypeScript path mapping to tell TypeScript that it should load some modules from a specific location. List all the peer dependencies that your library uses in the workspace TypeScript configuration file ./tsconfig.json, and point them at the local copy in the app's node_modules folder.
  - decide when to use multiple library projects vs when to use secondary entry points
-
-https://indepth.dev/create-your-standalone-angular-library-in-10-minutes/
-https://medium.com/angular-in-depth/how-to-build-a-component-library-with-angular-and-storybook-718278ab976
-https://willtaylor.blog/complete-guide-to-angular-libraries/
-https://medium.com/ngyou/https-medium-com-udayvunnam-be-the-thanos-of-your-angular-library-320f93ddc9ec
-https://medium.com/angular-in-depth/the-ultimate-guide-to-set-up-your-angular-library-project-399d95b63500
-https://medium.com/angular-in-depth/improve-spa-performance-by-splitting-your-angular-libraries-in-multiple-chunks-8c68103692d0
-https://github.com/ng-packagr/ng-packagr/issues/199
-https://github.com/ng-packagr/ng-packagr/issues/1211
-https://izifortune.com/multiple-packages-repository-with-angular/
+ - References:
+    - https://indepth.dev/create-your-standalone-angular-library-in-10-minutes/
+    - https://medium.com/angular-in-depth/how-to-build-a-component-library-with-angular-and-storybook-718278ab976
+    - https://willtaylor.blog/complete-guide-to-angular-libraries/
+    - https://medium.com/ngyou/https-medium-com-udayvunnam-be-the-thanos-of-your-angular-library-320f93ddc9ec
+    - https://medium.com/angular-in-depth/the-ultimate-guide-to-set-up-your-angular-library-project-399d95b63500
+    - https://medium.com/angular-in-depth/improve-spa-performance-by-splitting-your-angular-libraries-in-multiple-chunks-8c68103692d0
+    - https://github.com/ng-packagr/ng-packagr/issues/199
+    - https://github.com/ng-packagr/ng-packagr/issues/1211
+    - https://izifortune.com/multiple-packages-repository-with-angular/
