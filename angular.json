@@ -2,5 +2,46 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
-  "projects": {}
+  "projects": {
+    "ng-demo-library": {
+      "projectType": "library",
+      "root": "projects/ng-demo-library",
+      "sourceRoot": "projects/ng-demo-library/src",
+      "prefix": "demo-lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ng-demo-library/tsconfig.lib.json",
+            "project": "projects/ng-demo-library/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ng-demo-library/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng-demo-library/src/test.ts",
+            "tsConfig": "projects/ng-demo-library/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-demo-library/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ng-demo-library/tsconfig.lib.json",
+              "projects/ng-demo-library/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }},
+  "defaultProject": "ng-demo-library"
 }
