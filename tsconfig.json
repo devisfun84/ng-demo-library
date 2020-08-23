@@ -12,6 +12,12 @@
     },
     {
       "path": "./projects/ng-demo-library/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/demo-lib-showcase/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/demo-lib-showcase/tsconfig.spec.json"
     }
 ]
 }

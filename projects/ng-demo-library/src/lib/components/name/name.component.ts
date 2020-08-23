@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'demo-lib-name',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./name.component.css']
 })
 export class NameComponent implements OnInit {
+
+  @Input() name: string;
 
   constructor() { }
 
