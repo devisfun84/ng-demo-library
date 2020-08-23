@@ -8,6 +8,7 @@ import { TimeComponent } from './time.component';
   declarations: [TimeComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [TimeComponent]
 })
 export class TimeModule { }

@@ -1,6 +1,10 @@
 {
-  "name": "ng-demo-library",
+  "name": "@devisfun/ng-demo-library",
   "version": "0.0.0",
+  "author": {
+    "name": "Subhamoy Ghosh",
+    "email": "devisfun84@gmail.com"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +12,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:ng-demo-lib": "ng build ng-demo-library"
+    "build:ng-demo-lib": "ng build ng-demo-library",
+    "build-w:ng-demo-lib": "ng build ng-demo-library --watch",
+    "build-prod:ng-demo-lib": "ng build ng-demo-library --prod"
   },
   "private": true,
   "dependencies": {

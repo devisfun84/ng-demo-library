@@ -8,6 +8,7 @@ import { NameComponent } from './name.component';
   declarations: [NameComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [NameComponent]
 })
 export class NameModule { }
