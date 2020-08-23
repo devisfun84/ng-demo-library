@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import moment from 'moment';
+
 @Component({
   selector: 'demo-lib-time',
   templateUrl: './time.component.html',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TimeComponent implements OnInit {
 
+  dateTime: string;
+
   constructor() { }
 
   ngOnInit(): void {
+    this.dateTime = moment().toString();
   }
 
 }

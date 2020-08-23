@@ -56,3 +56,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     - https://github.com/ng-packagr/ng-packagr/issues/199
     - https://github.com/ng-packagr/ng-packagr/issues/1211
     - https://izifortune.com/multiple-packages-repository-with-angular/
+    - https://stackoverflow.com/questions/50189589/angular-cli-6-where-to-put-library-dependencies

@@ -5,11 +5,5 @@
     "@angular/common": "^10.0.11",
     "@angular/core": "^10.0.11",
     "moment": "^2.27.0"
-  },
-  "dependencies": {
-    "tslib": "^2.0.0"
-  },
-  "devDependencies": {
-    "moment": "^2.27.0"
   }
 }
